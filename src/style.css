@@ -1,0 +1,30 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+body {
+  margin: 0;
+  padding: 3rem;
+}
+
+.wrapper {
+  background: lightsalmon;
+  overflow: auto;
+}
+
+.content {
+  position: relative;
+  background: lightpink;
+  overflow: hidden;
+}
+.shift {
+  will-change: transform;
+}
+
+.shift p {
+  margin: 0;
+  padding: 24px;
+  height: 100px;
+  box-sizing: border-box;
+}
