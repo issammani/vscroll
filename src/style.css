@@ -6,16 +6,18 @@ h2 {
 body {
   margin: 0;
   padding: 3rem;
+  display: grid;
+  place-items: center;
 }
 
 .wrapper {
-  background: lightsalmon;
   overflow: auto;
+  width: 800px;
+  height: 500px;
 }
 
 .content {
   position: relative;
-  background: lightpink;
   overflow: hidden;
 }
 .shift {
@@ -27,4 +29,11 @@ body {
   padding: 24px;
   height: 100px;
   box-sizing: border-box;
+}
+
+.row {
+    box-sizing: border-box;
+    background: rgb(215 254 133);
+    font-size: 24px;
+    border: 1px solid #ff4c13;
 }
